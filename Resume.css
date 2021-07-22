@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.0;
+    font-size: 1rem;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red;  */
+    /* display:flex */
+    padding-left: 4px;
+    padding-top: 20px;
+}
+.main-section{
+    width: 100%;
+    display: flex;
+}
+.listing-order{
+list-style: none;
+}
+
+.aboutself{
+    width: 60%;
+    padding: 40px;
+}
+
+.passport{
+    width: 30%;
+    
+}
+
+.image-adjust{
+    width: 100%;
+    height: 180px;
+    min-width: 80px;
+}
+.seperator{
+    padding: 5px;
+}
+.table-part{
+    justify-content: center;
+    display: flex;
+}
+
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr th{
+    padding: 0 10px 0 10px;
+}
+tr td{
+    text-align: center;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.LANG{
+    display: flex;
+}
+
+.LANG div:first-child{
+    width: 50%;
+    padding-left: 10px;
+}
+
+.LANG div:last-child{
+    width: 60%;
+}
+
+.progressbar{
+    width: 95%;
+    }
+
+
+    .PERSONAL-DETAILS{
+       width: 70%;
+       margin: auto; 
+    }
+    .detail{
+        display: flex;
+        
+    }
+
+    .detail div:first-child{
+        width: 50%;
+    
+    }
+    .detail div:last-child{
+        width: 60%;
+    }
+
+    .header:hover{
+        background-color: aqua;
+        text-align: center;
+        border-radius: 60%;
+    }
+    span{
+        font-size: 20px;
+    }
+    th:hover{
+        background-color: rgb(193, 26, 199);
+    }
